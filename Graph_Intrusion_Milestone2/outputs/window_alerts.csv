@@ -1,0 +1,9 @@
+src_ip,window_start,flow_count,unique_destinations,unique_ports,total_bytes,baseline_median_flows,observed_windows,baseline_ratio,reason,classification
+10.0.0.4,2026-11-01 12:00:00+00:00,2,2,1,2073,1.0,3,2.0,flow count 2.00x source median,REVIEW_REQUIRED
+10.0.0.2,2026-11-01 12:05:00+00:00,3,2,1,6269,1.0,5,3.0,flow count 3.00x source median,REVIEW_REQUIRED
+10.0.0.2,2026-11-01 12:10:00+00:00,2,2,1,2201,1.0,5,2.0,flow count 2.00x source median,REVIEW_REQUIRED
+10.0.0.3,2026-11-01 12:15:00+00:00,2,2,1,3312,1.0,5,2.0,flow count 2.00x source median,REVIEW_REQUIRED
+10.0.0.5,2026-11-01 12:15:00+00:00,2,1,1,4502,1.0,5,2.0,flow count 2.00x source median,REVIEW_REQUIRED
+10.0.0.5,2026-11-01 12:20:00+00:00,2,1,1,2913,1.0,5,2.0,flow count 2.00x source median,REVIEW_REQUIRED
+10.0.0.99,2026-11-01 13:00:00+00:00,5,5,5,510,5.0,2,1.0,5 distinct destinations in window,REVIEW_REQUIRED
+10.0.0.99,2026-11-01 13:05:00+00:00,5,5,5,535,5.0,2,1.0,5 distinct destinations in window,REVIEW_REQUIRED
